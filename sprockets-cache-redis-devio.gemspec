@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "sprockets-cache-redis/version"
+require "sprockets-cache-redis-devio/version"
 
 Gem::Specification.new do |s|
   s.name        = "sprockets-cache-redis-devio"
@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{A Redis cache store for Sprockets}
   s.description = %q{}
-
-  s.rubyforge_project = "sprockets-cache-redis"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
