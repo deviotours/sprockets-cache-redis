@@ -1,2 +1,2 @@
-require "sprockets-cache-redis/version"
-require "sprockets-cache-redis/redis_store"
+require "sprockets-cache-redis-devio/version"
+require "sprockets-cache-redis-devio/redis_store"
