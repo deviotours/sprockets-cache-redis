@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "sprockets-cache-redis/version"
 
 Gem::Specification.new do |s|
-  s.name        = "sprockets-cache-redis"
+  s.name        = "sprockets-cache-redis-devio"
   s.version     = Sprockets::Cache::Redis::VERSION
   s.authors     = ["Carl Hörberg", "Devio, LLC"]
   s.email       = ["carl.hoerberg@gmail.com"]
